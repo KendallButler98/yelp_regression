@@ -20,7 +20,24 @@ This project analyzes a subset of the [Yelp Open Dataset](https://www.yelp.com/d
 
 ## Key Results
 
+- review stars trivially correlate with average review sentiment
+- Model 1 (controllable amenities) demonstrated little predictive power with an $R^2$ score of about 0.02
+- Model 2 (all correlated variables) demonstrated higher predictive power with an $R^2$ score of about 0.68, but was dominated by the "average review sentiment" variable
+- Model 3 (customer engagement variables) demonstrated more predictive power than model 1 with an $R^2$ score of about 0.1
+
 ## Selected Visualizations
+
+**Correlations between variables:**
+![Revenue Per Country](images/Correlations.png)
+
+**Exploratory analysis between relevant variables and average star rating using scatterplots:**
+![Exploratory Scatterplots](images/Exploratory_scatterplots.png)
+
+**Comparison between regression coefficients of all three regression models:**
+![Model Regression Coefficients](images/model_variables.png)
+
+**Bar plot of $R^2$ score for all three models:**
+![Model Regression Coefficients](images/model_variables.png)
 
 ## Restaurant Recommendations
 
