@@ -37,8 +37,11 @@ This project analyzes a subset of the [Yelp Open Dataset](https://www.yelp.com/d
 ![Model Regression Coefficients](images/model_variables.png)
 
 **Bar plot of $R^2$ score for all three models:**
-![Model Regression Coefficients](images/model_variables.png)
+![R^2 value for each model](images/Model_Performance.png)
 
 ## Restaurant Recommendations
 
-## Conclusion
+- provide basic amenities (bike parking, child-friendlyness, credit-card payments) despite low predictive power to remove barriers for positive reviews
+- develop marketing efforts (loyalty programs, events, advertizements) to increase customer buzz and engagement (engagement shown to have moderate predictive power)
+- focus on intangibles not included in the available dataset (quality of service, restaurant atmosphere, food quality), that would naturally effect reviews
+
